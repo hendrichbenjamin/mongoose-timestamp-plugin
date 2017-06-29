@@ -1,4 +1,6 @@
 # mongoose-timestamp-plugin
+[![Build Status](https://travis-ci.org/hendrichbenjamin/mongoose-timestamp-plugin.svg?branch=master)](https://travis-ci.org/hendrichbenjamin/mongoose-timestamp-plugin)
+
 A simple, yet configurable plugin to add timestamps for creations and modifications of mongoose documents.
 
 ## Installation
