@@ -1,0 +1,33 @@
+{
+  "name": "mongoose-timestamp-plugin",
+  "version": "0.0.1",
+  "description": "Adds createdAt and updatedAt fields to the plugged schema",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "mongoose": "^4.11.0",
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendrichbenjamin/mongoose-timestamp-plugin.git"
+  },
+  "keywords": [
+    "mongoose",
+    "timespan",
+    "plugin"
+  ],
+  "author": "Benjamin Hendrich <hendrich.benjamin@gmx.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hendrichbenjamin/mongoose-timestamp-plugin/issues"
+  },
+  "homepage": "https://github.com/hendrichbenjamin/mongoose-timestamp-plugin#readme"
+}
