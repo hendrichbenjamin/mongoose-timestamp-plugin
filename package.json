@@ -18,7 +18,6 @@
     "lint": "xo",
     "pre-test": "npm run lint",
     "test": "nyc ava",
-    "pre-report": "npm run test",
     "report": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
