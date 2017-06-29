@@ -9,11 +9,17 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.20.0",
+    "coveralls": "^2.13.1",
     "mongoose": "^4.11.0",
+    "nyc": "^11.0.3",
     "xo": "^0.18.2"
   },
   "scripts": {
-    "test": "xo && ava"
+    "lint": "xo",
+    "pre-test": "npm run lint",
+    "test": "nyc ava",
+    "pre-report": "npm run test",
+    "report": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
